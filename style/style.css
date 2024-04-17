@@ -111,7 +111,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -146,38 +146,32 @@ header {
   background-color: white;
   box-shadow: 3px 3px 5px 1px #757474;
 }
-
 header div.logo {
   display: flex;
   align-items: center;
   flex: 5 1 400px;
   margin-left: 2rem;
 }
-
 header div.logo img {
   width: 6vw;
   height: 6vw;
   opacity: 0.5;
 }
-
 header div.logo h1 {
   font-size: 20px;
-  color: #dda816;
+  color: rgb(221, 168, 22);
   text-align: justify;
   padding-left: 10px;
   font-weight: 700;
 }
-
 header nav {
   flex: 2 1 400px;
 }
-
 header nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
 }
-
 header nav ul li a {
   color: #33c5df;
   text-decoration: none;
@@ -192,8 +186,14 @@ header nav ul li a {
     height: 40vw;
   }
   footer div.logo img {
-    min-width: 15vw;
-    min-height: 15vw;
+    min-width: 20vw;
+    min-height: 20vw;
+  }
+  footer div.logo h1 {
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    font-weight: 600;
+    padding-left: 20px;
   }
   footer nav li {
     display: none;
@@ -206,7 +206,6 @@ header nav ul li a {
     min-height: 15vw;
   }
 }
-
 main section.backImage {
   width: 100%;
   min-height: 90vh;
@@ -222,7 +221,6 @@ main section.backImage {
   text-align: center;
   flex-direction: column;
 }
-
 main section.backImage div.filter {
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -231,14 +229,12 @@ main section.backImage div.filter {
   top: 0;
   z-index: -1;
 }
-
 main section.backImage h3 {
-  font-size: 3.5rem;
-  color: #c6c91d;
+  font-size: 2rem;
+  color: rgb(198, 201, 29);
   margin: 2rem 0rem;
-  line-height: 6rem;
+  line-height: 4rem;
 }
-
 main section.backImage button.start {
   background-color: #954ebe;
   padding: 0.75rem 1.5rem;
@@ -248,19 +244,16 @@ main section.backImage button.start {
   border-radius: 1rem;
   cursor: pointer;
 }
-
 main section.second {
   min-height: 100vh;
   font-size: 25px;
   align-items: center;
   text-align: center;
 }
-
 main section.second .hh {
   line-height: 50px;
   font-family: 標楷體;
 }
-
 main section.second .hh .aa {
   background-image: url(../Pictures/seaside.jpg);
   font-weight: 500;
@@ -268,7 +261,6 @@ main section.second .hh .aa {
   border-radius: 30px 15px;
   padding: 15px;
 }
-
 main section.second section.cards {
   display: flex;
   width: 80%;
@@ -277,7 +269,6 @@ main section.second section.cards {
   margin: 0 auto;
   padding: 0;
 }
-
 main section.second section.cards div.card {
   font-size: 20px;
   display: flex;
@@ -288,35 +279,29 @@ main section.second section.cards div.card {
   justify-content: space-around;
   text-align: center;
 }
-
 main section.second section.cards div.card div.image-container {
   overflow: hidden;
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
 }
-
 main section.second section.cards div.card div.image-container img {
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
   transition: all 0.25s;
 }
-
 main section.second section.cards div.card div.image-container img:hover {
   transform: scale(1.2);
 }
-
 main section.second section.cards div.card h4 {
   font-size: 2rem;
   margin: 1rem 0rem;
 }
-
 main section.second section.cards div.card p {
   font-size: 1.25rem;
   line-height: 2rem;
 }
-
 main section.second section.cards div.card a {
   text-decoration: none;
   padding: 1rem 1.5rem;
@@ -331,40 +316,34 @@ main section.second section.cards div.card a {
     background-image: none;
   }
 }
-
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 40vh;
   justify-content: space-around;
-  background-color: #cfcfcf;
+  background-color: rgb(207, 207, 207);
 }
-
 footer div.logo {
   display: flex;
   align-items: center;
   margin: 0rem 1rem;
 }
-
 footer div.logo img {
   width: 6vw;
   height: 6vw;
   padding-top: 20px;
   margin-bottom: 20px;
 }
-
 footer div.logo h1 {
   font-size: 20px;
   font-family: 微軟正黑體;
   font-weight: 600;
   padding-left: 20px;
 }
-
 footer nav {
   width: 30%;
 }
-
 footer nav ul {
   display: flex;
   list-style-type: none;
@@ -374,23 +353,19 @@ footer nav ul {
   margin: 0rem 1rem;
   flex-wrap: wrap;
 }
-
 footer nav ul li a {
   color: black;
   text-decoration: none;
   font-size: 1.35rem;
 }
-
 footer section.links {
   margin-top: 1rem;
 }
-
 footer section.links a {
-  color: #f00c0c;
+  color: rgb(240, 12, 12);
   font-weight: 600;
   margin: 0rem 1rem;
 }
-
 footer section.links a img {
   width: 6vw;
   height: 6vw;
@@ -406,4 +381,4 @@ footer section.links a img {
 
 ::-webkit-scrollbar-thumb {
   background: #ab15c9;
-}
+}/*# sourceMappingURL=style.css.map */
